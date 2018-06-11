@@ -13,6 +13,7 @@
 		FF5B27E220CEF444001FD295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5B27E120CEF444001FD295 /* Assets.xcassets */; };
 		FF5B27E520CEF444001FD295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B27E320CEF444001FD295 /* LaunchScreen.storyboard */; };
 		FF5B27E820CEF444001FD295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B27E720CEF444001FD295 /* main.m */; };
+		FF5B27F020CF1AAA001FD295 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5B27EF20CF1AAA001FD295 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FF5B27E420CEF444001FD295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5B27E620CEF444001FD295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF5B27E720CEF444001FD295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5B27EE20CF1AAA001FD295 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FF5B27EF20CF1AAA001FD295 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				FF5B27DB20CEF444001FD295 /* ViewController.h */,
 				FF5B27DC20CEF444001FD295 /* ViewController.m */,
 				FF5B27DE20CEF444001FD295 /* Main.storyboard */,
+				FF5B27EE20CF1AAA001FD295 /* SecondViewController.h */,
+				FF5B27EF20CF1AAA001FD295 /* SecondViewController.m */,
 				FF5B27E120CEF444001FD295 /* Assets.xcassets */,
 				FF5B27E320CEF444001FD295 /* LaunchScreen.storyboard */,
 				FF5B27E620CEF444001FD295 /* Info.plist */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5B27F020CF1AAA001FD295 /* SecondViewController.m in Sources */,
 				FF5B27DD20CEF444001FD295 /* ViewController.m in Sources */,
 				FF5B27E820CEF444001FD295 /* main.m in Sources */,
 				FF5B27DA20CEF444001FD295 /* AppDelegate.m in Sources */,

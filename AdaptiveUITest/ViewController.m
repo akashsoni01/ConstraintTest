@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -25,5 +25,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)setUserData:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    // SecondViewController *add = [[SecondViewController alloc] init];
+    SecondViewController *instantiate = [storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
+    
+    
+    
+    [self presentViewController:instantiate animated:YES completion:nil];
+    
+}
 @end
